@@ -3,7 +3,7 @@ import React from 'react'
 function Slogan() {
   return (
     <div className='slogan'>
-        <h2>Better-Dressed People</h2>
+        <p>Better-Dressed People</p>
     </div>
   )
 }
