@@ -19,6 +19,7 @@
   font-weight: 100;
   height: 250px;
   padding-top: 0.6em;
+  margin-left: 1.2em;
 }
 
 .slogan{
@@ -26,6 +27,7 @@
   font-size: 4em;
   font-weight: 100;
   height: 15vh;
+  margin-left: 2.4em;
 }
 
 .unorderList{
