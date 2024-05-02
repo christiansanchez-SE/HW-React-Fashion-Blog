@@ -1,6 +1,30 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  border:solid black;
+  height:500vh;
+  margin:2em;
+  display:flex;
+  flex-direction: column;
 }
+
+ul{
+  list-style: none;
+}
+
+li{
+  border: solid blue;
+  display: inline-block;
+  margin: 0em 7em 0em;
+}
+
+.categories{
+  border: solid red;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+}
+
+/* ////////////////////////// */
 
 .App-logo {
   height: 40vmin;
