@@ -24,6 +24,32 @@ li{
   justify-content: space-evenly;
 }
 
+.bodyParahgraph{
+  width: 1400px; 
+  margin: 0 auto;
+}
+.paraOne{
+  font-size: 1.5em;
+}
+
+.bigC{
+  font-size: 6em;
+  float: left; 
+  margin-right: 10px; 
+}
+
+.continues{
+  border: solid blue;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.lineDivider{
+  border-top: 3px solid #bbb;
+}
+
 /* ////////////////////////// */
 
 .App-logo {
