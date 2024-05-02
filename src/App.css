@@ -7,11 +7,11 @@
   flex-direction: column;
 }
 
-ul{
+.unorderList{
   list-style: none;
 }
 
-li{
+.listOne{
   border: solid blue;
   display: inline-block;
   margin: 0em 7em 0em;
@@ -25,14 +25,15 @@ li{
 }
 
 .bodyParahgraph{
-  width: 1400px; 
-  margin: 0 auto;
+  border: solid green;
+  margin: 1em;
 }
 .paraOne{
   font-size: 1.5em;
 }
 
 .bigC{
+  border: solid black;
   font-size: 6em;
   float: left; 
   margin-right: 10px; 
@@ -50,6 +51,51 @@ li{
   border-top: 3px solid #bbb;
 }
 
+.bodyParagraphTwo{
+  border: solid green;
+  margin: 1em;
+}
+
+.paraTwo{
+  font-size: 1.5em;
+}
+
+.bigS{
+  border: solid black;
+  font-size: 6em;
+  float: left; 
+  margin-right: 10px; 
+}
+
+.continuesTwo{
+  border: solid blue;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.lineDividerTwo{
+  border-top: 3px solid #bbb;
+}
+
+.footer{
+  border: solid red;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  margin: 1em;
+}
+
+.unorderListTwo{
+  list-style: none;
+}
+
+.listTwo{
+  border: solid blue;
+  display: inline-block;
+  margin: 0em 4em 0em;
+}
 /* ////////////////////////// */
 
 .App-logo {
